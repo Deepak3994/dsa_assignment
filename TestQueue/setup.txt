@@ -1,0 +1,11 @@
+# for windows machine
+
+echo %cd%
+
+set PYTHONPATH=%cd%;%PYTHONPATH%
+
+
+# for linux machine
+
+xport GHXHOME=`pwd`
+export PYTHONPATH=$GHXHOME:$PYTHONPATH
